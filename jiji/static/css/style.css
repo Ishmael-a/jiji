@@ -186,7 +186,7 @@ li{
 .how_to_buy{
     width: 74.5%;
     height: auto;
-    background: url(/images/how\ to\ buy.jpeg) center/cover no-repeat;
+    background: url(/static/images/how\ to\ buy.jpeg) center/cover no-repeat;
     position: relative;
     overflow: hidden;
 }
@@ -367,52 +367,52 @@ li{
     position: absolute;
 }
 .sqr1{
-    background: url(/images/menu1/01_vehicles.png) center/cover no-repeat;
+    background: url(/static/images/menu1/01_vehicles.png) center/cover no-repeat;
 }
 .sqr2{
-    background: url(/images/menu1/26_real-estate.png) center/cover no-repeat;
+    background: url(/static/images/menu1/26_real-estate.png) center/cover no-repeat;
 }
 .sqr3{
-    background: url(/images/menu1/06_mobile.png) center/cover no-repeat;
+    background: url(/static/images/menu1/06_mobile.png) center/cover no-repeat;
 }
 .sqr4{
-    background: url(/images/menu1/11_electronics.png) center/cover no-repeat;
+    background: url(/static/images/menu1/11_electronics.png) center/cover no-repeat;
 }
 .sqr5{
-    background: url(/images/menu1/28_home.png) center/cover no-repeat;
+    background: url(/static/images/menu1/28_home.png) center/cover no-repeat;
 }
 .sqr6{
-    background: url(/images/menu1/02_beauty.png) center/cover no-repeat;
+    background: url(/static/images/menu1/02_beauty.png) center/cover no-repeat;
 }
 .sqr7{
-    background: url(/images/menu1/16_fashion.png) center/cover no-repeat;
+    background: url(/static/images/menu1/16_fashion.png) center/cover no-repeat;
 }
 .sqr8{
-    background: url(/images/menu1/05_hobbies.png) center/cover no-repeat;
+    background: url(/static/images/menu1/05_hobbies.png) center/cover no-repeat;
 }
 .sqr9{
-    background: url(/images/menu1/08_jobseekers.png) center/cover no-repeat;
+    background: url(/static/images/menu1/08_jobseekers.png) center/cover no-repeat;
 }
 .sqr10{
-    background: url(/images/menu1/14_services.png) center/cover no-repeat;
+    background: url(/static/images/menu1/14_services.png) center/cover no-repeat;
 }
 .sqr11{
-    background: url(/images/menu1/07_jobs.png) center/cover no-repeat;
+    background: url(/static/images/menu1/07_jobs.png) center/cover no-repeat;
 }
 .sqr12{
-    background: url(/images/menu1/48_babies.png) center/cover no-repeat;
+    background: url(/static/images/menu1/48_babies.png) center/cover no-repeat;
 }
 .sqr13{
-    background: url(/images/menu1/29_animals.png) center/cover no-repeat;
+    background: url(/static/images/menu1/29_animals.png) center/cover no-repeat;
 }
 .sqr14{
-    background: url(/images/menu1/15_agriculture.png) center/cover no-repeat;
+    background: url(/static/images/menu1/15_agriculture.png) center/cover no-repeat;
 }
 .sqr15{
-    background: url(/images/menu1/23_equipment.png) center/cover no-repeat;
+    background: url(/static/images/menu1/23_equipment.png) center/cover no-repeat;
 }
 .sqr16{
-    background: url(/images/menu1/10_repair.png) center/cover no-repeat;
+    background: url(/static/images/menu1/10_repair.png) center/cover no-repeat;
 }
 
 
@@ -451,54 +451,54 @@ li{
     border-top-right-radius: inherit;
     position: relative;
 }
-.pic1{
-    background: url(/images/ads/car1.jpg) center/cover no-repeat;
+/* .pic1{
+    background: url(/static/images/ads/car1.jpg) center/cover no-repeat;
 
 }
 .pic2{
-    background: url(/images/ads/car2.jpg) center/cover no-repeat;
+    background: url(/static/images/ads/car2.jpg) center/cover no-repeat;
 
 }
 .pic3{
-    background: url(/images/ads/car3.jpg) center/cover no-repeat;
+    background: url(/static/images/ads/car3.jpg) center/cover no-repeat;
 
 }
 .pic4{
-    background: url(/images/ads/car4.jpg) center/cover no-repeat;
+    background: url(/static/images/ads/car4.jpg) center/cover no-repeat;
 
 }
 .pic5{
-    background: url(/images/ads/phone1.jpg) center/cover no-repeat;
+    background: url(/static/images/ads/phone1.jpg) center/cover no-repeat;
 
 }
 .pic6{
-    background: url(/images/ads/phone2.jpg) center/cover no-repeat;
+    background: url(/static/images/ads/phone2.jpg) center/cover no-repeat;
 
 }
 .pic7{
-    background: url(/images/ads/phone3.jpg) center/cover no-repeat;
+    background: url(/static/images/ads/phone3.jpg) center/cover no-repeat;
 
 }
 .pic8{
-    background: url(/images/ads/phone4.jpg) center/cover no-repeat;
+    background: url(/static/images/ads/phone4.jpg) center/cover no-repeat;
 
 }
 .pic9{
-    background: url(/images/ads/house1.jpg) center/cover no-repeat;
+    background: url(/static/images/ads/house1.jpg) center/cover no-repeat;
 
 }
 .pic10{
-    background: url(/images/ads/house2.jpg) center/cover no-repeat;
+    background: url(/static/images/ads/house2.jpg) center/cover no-repeat;
 
 }
 .pic11{
-    background: url(/images/ads/house3.jpg) center/cover no-repeat;
+    background: url(/static/images/ads/house3.jpg) center/cover no-repeat;
 
 }
 .pic12{
-    background: url(/images/ads/house\ 4.jpg) center/cover no-repeat;
+    background: url(/static/images/ads/house\ 4.jpg) center/cover no-repeat;
 
-}
+} */
 .bookmark{
     height: 36px;
     width: 36px;
