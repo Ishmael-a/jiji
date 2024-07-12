@@ -1,12 +1,13 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Free classifieds in Ghana</title>
-    <link rel="shortcut icon" href="./images/jiji icon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="{% static 'images/jiji icon.jpg' %}" type="image/x-icon">
     <!-- css -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -14,7 +15,7 @@
 <body>
     <div class="nav">
         <a class="nav_left" href="#">
-            <img class="jiji_logo" src="./images/jiji icon 2.png" alt="Jiji Logo">
+            <img class="jiji_logo" src="{% static 'images/jiji icon 2.png' %}" alt="Jiji Logo">
         </a>
         <div class="nav_right">
             <p class="nav_signin"><a href="#">Sign in</a> | <a href="#">Registration</a></p>
@@ -41,9 +42,9 @@
     <div class="outer_2">
         <div class="inner_2_1">
             <div class="menu">
-                <a href="#" class="opts">
+                <!-- <a href="#" class="opts">
                     <div class="opt_pic">
-                        <img src="./images/menu1/vehicles.png" alt="">
+                        <img src="{% static 'images/menu1/vehicles.png' %}" alt="">
                     </div>
                     <div class="opt_text">
                         <p class="text_1">Vehicles</p>
@@ -57,7 +58,7 @@
 
                 <a href="#" class="opts">
                     <div class="opt_pic">
-                        <img src="./images/menu1/real-estate.png" alt="">
+                        <img src="{% static 'images/menu1/real-estate.png' %}" alt="">
                     </div>
                     <div class="opt_text">
                         <p class="text_1">Property</p>
@@ -71,7 +72,7 @@
 
                 <a href="#" class="opts">
                     <div class="opt_pic">
-                        <img src="./images/menu1/mobile.png" alt="">
+                        <img src="{% static 'images/menu1/mobile.png' %}" alt="">
                     </div>
                     <div class="opt_text">
                         <p class="text_1">Mobile Phone & Tablets</p>
@@ -85,7 +86,7 @@
 
                 <a href="#" class="opts">
                     <div class="opt_pic">
-                        <img src="./images/menu1/electronics.png" alt="">
+                        <img src="{% static 'images/menu1/electronics.png' %}" alt="">
                     </div>
                     <div class="opt_text">
                         <p class="text_1">Electronics</p>
@@ -99,7 +100,7 @@
 
                 <a href="#" class="opts">
                     <div class="opt_pic">
-                        <img src="./images/menu1/home.png" alt="">
+                        <img src="{% static 'images/menu1/home.png' %}" alt="">
                     </div>
                     <div class="opt_text">
                         <p class="text_1">Home, Furniture & Appliances</p>
@@ -113,7 +114,7 @@
 
                 <a href="#" class="opts">
                     <div class="opt_pic">
-                        <img src="./images/menu1/beauty.png" alt="">
+                        <img src="{% static 'images/menu1/beauty.png' %}" alt="">
                     </div>
                     <div class="opt_text">
                         <p class="text_1">Health & Beauty</p>
@@ -127,7 +128,7 @@
 
                 <a href="#" class="opts">
                     <div class="opt_pic">
-                        <img src="./images/menu1/fashion.png" alt="">
+                        <img src="{% static 'images/menu1/beauty.png' %}" alt="">
                     </div>
                     <div class="opt_text">
                         <p class="text_1">Fashion</p>
@@ -141,7 +142,7 @@
 
                 <a href="#" class="opts">
                     <div class="opt_pic">
-                        <img src="./images/menu1/hobbies.png" alt="">
+                        <img src="{% static 'images/menu1/hobbies.png' %}" alt="">
                     </div>
                     <div class="opt_text">
                         <p class="text_1">Sports, Arts & Outdoors</p>
@@ -155,7 +156,7 @@
 
                 <a href="#" class="opts">
                     <div class="opt_pic">
-                        <img src="./images/menu1/jobseekers.png" alt="">
+                        <img src="{% static 'images/menu1/jobseekers.png' %}" alt="">
                     </div>
                     <div class="opt_text">
                         <p class="text_1">Seeking Work CVs
@@ -170,7 +171,7 @@
 
                 <a href="#" class="opts">
                     <div class="opt_pic">
-                        <img src="./images/menu1/services.png" alt="">
+                        <img src="{% static 'images/menu1/services.png' %}" alt="">
                     </div>
                     <div class="opt_text">
                         <p class="text_1">Services</p>
@@ -180,7 +181,7 @@
                             <i class="fa-solid fa-chevron-right arrow_icon"></i>
                         </div>
                     </div>
-                </a>
+                </a> -->
             </div>
         </div>
 
