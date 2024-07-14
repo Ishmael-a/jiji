@@ -1,0 +1,85 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saved Products</title>
+    <!-- css -->
+    <link rel="stylesheet" href="{% static 'css/cartstyle.css' %}">
+</head>
+<body>
+    <div class="jiji-container">
+        <div class="navbar">
+          <div class="logo">
+            <!-- <h1>jiji</h1> -->
+            <img src="./nav-images/JII LOGO 1.png" alt="">
+          </div>
+          <nav>
+            <ul>
+              <li><a href="./signin.html">Sign in</a></li>
+              <li><a href="./register.html">Registration</a></li>
+              <a href="" id="sell">SELL</a>
+            </ul>
+          </nav>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile">
+                <div class="avatar"></div>
+                <div class="name">Ishmael Abu</div>
+                <div class="add-phone">ADD PHONE NUMBER</div>
+            </div>
+            <div class="advice">
+                <span class="advice-text">Learn, how to create an effective ad</span>
+                <button class="hide-btn">hide</button>
+            </div>
+            <div class="menu">
+                <div class="menu-item">Make money</div>
+                <div class="menu-item">GH₵ 0</div>
+                <div class="menu-item">Followers</div>
+                <div class="menu-item">My adverts</div>
+                <div class="menu-item">Feedback</div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <h1>My Saved</h1>
+                <div class="tab">
+                    <button class="tablinks active">Adverts (2)</button>
+                    <button class="tablinks">Searches (0)</button>
+                </div>
+                <button class="clear-btn">Clear all ads</button>
+            </div>
+            <div class="saved-products">
+                <div class="product">
+                    <img src="./body-images/Toyota Camry 2004 Blue.jpeg" alt="Kia Morning 2008 Gray">
+                    <div class="product-info">
+                        <div class="remove-div">
+                            <h2>Kia Morning 2008 Gray</h2>
+                            <button>Remove</button>
+                        </div>
+                        <p>GH₵ 25,000</p>
+                        <p>Local Used | Automatic</p>
+                        <p>Eastern Region, Akuapim South</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./body-images/Toyota Camry 2004 Blue.jpeg" alt="Toyota Venza 2009 Gray">
+                    <div class="product-info">
+                        <div class="remove-div">
+                            <h2>Toyota Venza 2009 Gray</h2>
+                            <button>Remove</button>
+                        </div>
+                        <p>GH₵ 77,000</p>
+                        <p>Local Used | Automatic | 90000 km</p>
+                        <p>Greater Accra, Dzorwulu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
