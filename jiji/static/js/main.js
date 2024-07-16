@@ -1,10 +1,10 @@
 const fetchCategories = async () => {
-    const response = await fetch('http://localhost:7000/categories');
+    const response = await fetch('https://jiji-api.onrender.com/categories');
     return await response.json();
 }
 
 const fetchProducts = async () => {
-    const response = await fetch('http://localhost:7000/products');
+    const response = await fetch('https://jiji-api.onrender.com/products');
     return await response.json();
 }
 
