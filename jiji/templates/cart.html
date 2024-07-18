@@ -10,19 +10,13 @@
     <link rel="stylesheet" href="{% static 'css/cartstyle.css' %}">
 </head>
 <body>
-    <div class="jiji-container">
-        <div class="navbar">
-          <div class="logo">
-            <!-- <h1>jiji</h1> -->
-            <img src="./nav-images/JII LOGO 1.png" alt="">
-          </div>
-          <nav>
-            <ul>
-              <li><a href="./signin.html">Sign in</a></li>
-              <li><a href="./register.html">Registration</a></li>
-              <a href="" id="sell">SELL</a>
-            </ul>
-          </nav>
+    <div class="nav">
+        <a class="nav_left" href="#">
+            <img class="jiji_logo" src="{% static 'images/jiji icon.jpg' %}" alt="Jiji Logo">
+        </a>
+        <div class="nav_right">
+            <p class="nav_signin"><a href="#">Sign in</a> | <a href="#">Registration</a></p>
+            <a class="nav_btn" href="#">SELL</a>
         </div>
     </div>
     <div class="container">
@@ -81,5 +75,6 @@
             </div>
         </div>
     </div>
+    <script src="{% static 'js/cart.js' %}"></script>
 </body>
 </html>
