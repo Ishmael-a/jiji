@@ -48,6 +48,11 @@ body {
     margin-top: 3px;
 }
 
+.countercontainer{
+    display: flex;
+    flex: 1;
+}
+
 .sidebar {
     width: 250px;
     background-color: #ffffff;
